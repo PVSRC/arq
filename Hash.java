@@ -21,18 +21,22 @@ public class Hash
 		long p = 0;
 		Elemento h = new Elemento();
 		Endereco e = new Endereco();
-		while(f.getFilePointer() < f.length()){
+		while(f.getFilePointer() < f.length())
+		{
 			e.leEndereco(f);
 			p = Long.parseLong(e.getCEP()) % n;
 			r.seek(p*24);
 			h.leCep(r);
-			if(h.getCEP() == -1){
+			if(h.getCEP() == -1)
+			{
 				h.setCEP(Long.parseLong(e.getCEP()));
 				h.setEndereco(i);
 				h.setProximo(-1);
 				r.seek(p*24);
 				h.escreveCep(r);				
-			}else{
+			}
+			else
+			{
 				long prox = h.getProximo();
 				h.setProximo(r.length());
 				r.seek(p*24);
@@ -42,7 +46,8 @@ public class Hash
 				h.setEndereco(i);
 				h.setProximo(prox);
 				h.escreveCep(r);				
-			}i++;		
+			}
+			i++;		
 		}
 	}
 	
