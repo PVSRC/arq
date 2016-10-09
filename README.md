@@ -2,8 +2,8 @@
 Esse relatório será separado explicando os quatro arquviso de java usados
 
 ##Hash.java
-Este é o arquivo da classe Hash, contendo os métodos
+Este é o arquivo da classe Hash, contendo os métodos criarTabela, criarHash e ler
 
 ##Elemento.java
 Este é o arquvio da classe Elemento, que será usada para compor o Hash, com os atributos CEP,Endereço e Próximo, todos sendo do tipo long, e seus getters e setters. CEP sendo o número do CEP, Endereço sendo o índice no hash e Próximo que aponta para o próximo elemento caso tenha acontecido alguma colisão.
-Essa classe também contém dois métodos, escreveCEP e leCEP
+Essa classe também contém dois métodos, escreveCEP, que escrever os atributos na posição especificada da tabela, e leCEP
