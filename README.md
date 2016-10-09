@@ -25,3 +25,13 @@ Este é o arquivo da classe Endereço, que contém as informações de endereço
 Essa classe também contém, além dos vários getters e setters, um método, leEndereço.
 
 leEndereço pega o arquivo fornecido, que contém os Logradouros, Bairros, Cidades, etc, e lê esse arquivo pegando essas informações, que estão em formato de byte, e muda elas de byte para String.
+
+##Principal.java
+Este é o arquivo que contém o método main, que é onde acontece todo o processo e onde os métodos das outras classes são usados.
+
+O main começa com a criação de um scanner para que o usuário possa fazer uma escolha entre criar índice do Hash ou procurar um CEP, essas duas opções estão divididas em dois cases.
+
+###Case 1
+
+
+###Case 2
