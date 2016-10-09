@@ -13,9 +13,7 @@ ler esse método faz uma procura do CEP, que foi fornecido pelo usuário, na tab
 ##Elemento.java
 Este é o arquvio da classe Elemento, que será usada para compor o Hash, com os atributos CEP,Endereço e Próximo, todos sendo private e do tipo long, logo a classe tem seus getters e setters.
 
-CEP sendo o número do CEP, Endereço sendo o índice no hash e Próximo que aponta para o próximo elemento caso tenha acontecido alguma colisão.
-
-Essa classe também contém, além dos getters e setters, dois métodos, escreveCEP e leCEP.
+CEP sendo o número do CEP, Endereço sendo o índice no hash e Próximo que aponta para o próximo elemento caso tenha acontecido alguma colisão. Essa classe também contém, além dos getters e setters, dois métodos, escreveCEP e leCEP.
 
 escreveCEP que escrever os atributos na posição especificada da tabela.
 
