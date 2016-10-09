@@ -32,6 +32,12 @@ Este é o arquivo que contém o método main, que é onde acontece todo o proces
 O main começa com a criação de um scanner para que o usuário possa fazer uma escolha entre criar índice do Hash ou procurar um CEP, essas duas opções estão divididas em dois cases.
 
 ###Case 1
-
+No case 1 o usuário entra com o arquivo, que só sera lido, e com o nome do arquivo que será criado com a tabela e o hash.
+Depois será informado para o usuário como é calculada a função do hash e pedirá que o usuário entre com um número desejado para ser usado nessa função.
+Após calcular a função com o n fornecido a tabela será criada e em seguida o hash.
 
 ###Case 2
+No case 2 o usuário entra com o arquivo que ele deseja fazer a procura do CEP e com o indice do hash.
+Depois o usuário entra com o CEP que ele deseja procurar no aquivo.
+Após isso, o programa dá duas opções para o usuário, digitar 1 se ele quiser procurar outro CEP nesse mesmo arquivo, ou 2 para sair.
+Caso a escolha seja 1 o programa entra em um while que repete o processo de entrar com o CEP para a procura até chegar novamente nas duas opções, de continuar a busca no arquivo ou sair. 
