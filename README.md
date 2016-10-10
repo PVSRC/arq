@@ -1,6 +1,6 @@
 # Relatóriode Organização de Estruturas de Arquivos
 
-Nome:Paulo Victor Santa Rosa Correia Curso:BCC
+Nome:Paulo Victor Santa Rosa Correia / Curso:BCC
 
 Esse relatório será separado explicando os quatro arquviso de java usados.
 
